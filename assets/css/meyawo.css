@@ -11142,6 +11142,10 @@ p {
 .service-card .body {
   padding: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-card .body img.icon {
@@ -11166,6 +11170,10 @@ p {
   visibility: hidden;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
+  width: 80%;
+  
+ 
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
